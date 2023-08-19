@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.scss';
-import store from './Store/Store'; // Correct the import path
+import {store} from './Store/Store'; // Correct the import path
 
 import { Provider } from 'react-redux';
 
