@@ -25,14 +25,14 @@ function App() {
  });
  };
   return (<BrowserRouter>
-  <Header/>
+  {/* <Header/> */}
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/:mediaType/:id' element={<Details/>}/>
     <Route path='/search/:query'element={<searchResult/>}/>
     <Route path='*' element={<PageNotfound/>}/>
     </Routes>
-<Footer/>
+{/* <Footer/> */}
   </BrowserRouter>
 
   )
