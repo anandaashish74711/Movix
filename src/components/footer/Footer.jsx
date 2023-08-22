@@ -2,7 +2,7 @@ import React from 'react'
 import './style.scss'
 const Footer = () => {
   return (
-    <div>Footer names</div>
+    <div>Footer</div>
   )
 }
 
